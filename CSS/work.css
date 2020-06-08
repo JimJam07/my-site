@@ -1,0 +1,92 @@
+html{
+    scroll-behavior: smooth;
+}
+/*side navbar*/
+.sidenav {
+    margin-top: 100px;
+    width: 180px;
+    position: fixed;
+    z-index: 1;
+    top: 20px;
+    left: 10px;
+    background: #f6eedf;
+    color:black;
+    overflow-x: hidden;
+    padding: 8px 0;
+    text-align: center;
+  }
+  .sidenav h1{
+      text-decoration: underline;
+  }
+  .sidenav li {
+      padding-bottom: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block; 
+    text-align: center;
+  }
+  .sidenav li:hover{
+      cursor: pointer;
+      animation: colors 0.3s 1;
+      background-color: #45046a;
+      color: white;
+  }
+  @keyframes colors{
+      from{
+          color: black;
+          background-color:#f6eedf;
+      }
+      50%{
+        color: 	#A9A9A9;
+        background-color:#5c2a9d;
+      }
+      100%{
+        color: white;
+        background-color:#45046a;
+      }
+  }
+  .sidenav ul{
+      padding: 0;
+  }
+
+  #content{
+      height: 2000px;
+      margin-left: 180px;
+      font-size: 28px; 
+      padding-left: 30px;
+  }
+  p{
+      margin-top: 0;
+      padding-top: 20px;
+  }
+  #content div{
+      text-align: center;
+      padding-top: 60px;
+  }
+  #code{
+ background-color: #fb7b6b;
+  }
+  #face{
+      background-color: #1b6ca8;
+      color: white;
+}
+#vehical{
+    background-color: #e8e4e1;
+}
+
+#content div .img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+#content div h1{
+    text-decoration: underline;
+}
+.framework{
+    height: 70px;
+    width: 70px;
+    margin-bottom: 30px;
+}
+h2{
+    margin-bottom: 10px;
+}

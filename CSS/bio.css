@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap');
+/*social media*/
+.socials{
+    text-align: center;
+}
+.socials button{
+    background: transparent;
+    border: 0;
+}
+.socials button:hover{
+    cursor: pointer;
+}
+.insta:hover{
+    background-color: #d6249f;
+    color: white;
+}
+.fa-instagram{
+    color:#d6249f
+}
+.fa-instagram:hover{
+    color: white;
+}
+.fa-facebook{
+    color: #3b5998;
+}
+.fa-facebook:hover{
+    color: white;
+}
+.facebook:hover{
+    background-color: #3b5998;
+    color: white;
+}
+.fa-github{
+    color: black;
+}
+.fa-github:hover{
+    color: white;
+}
+.git:hover{
+    background-color: black;
+}
+/* top conatiner*/
+.name{
+    text-align: center;
+}
+.name h1{
+    text-decoration: underline;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+.ruler{
+    animation: hr 1s 1;
+    margin:  0;
+    border: 0;
+    text-align: center;
+    width: 100%;
+}
+        
+.ruler:before {
+    content: "\2022 \2022 \2022 \2022 \2022 \2022 \2022 \2022 \2022 \2022 \2022 \2022 \2022 \2022 \2022 \2022 \2022 \2022 \2022 \2022 \2022 \2022 \2022 \2022 \2022 \2022 \2022 \2022 \2022 \2022 \2022 \2022 \2022 \2022 \2022 \2022 \2022 \2022 \2022 \2022 \2022 \2022 \2022 \2022 \2022 \2022 \2022 \2022 \2022 \2022 \2022 \2022 \2022 \2022";
+    font-size: 50px;
+    color: #4F8BCA;
+    }
+@keyframes hr{
+    from{
+        width: 0%;
+    }
+    50%{
+        width: 25%;
+    }
+    to{
+        width: 100%;
+    }
+}
+/*content*/
+.content p{
+ font-size: 3rem;
+ font-family: 'Delius Swash Caps', cursive;
+}
+/*media query*/
+@media only screen and (max-width: 750px) {
+    .name h1{
+        font-size: 2rem;
+    }
+    .content p{
+        font-size: 2rem;
+    }
+  }

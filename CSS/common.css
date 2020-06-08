@@ -1,0 +1,129 @@
+body,html{
+    margin: 0;
+}
+/* top-container  navbar styles*/
+.nav{
+    padding-bottom: 20px;
+    background-color: 	#FF69B4;
+    height: 60px;
+}
+li{
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 1.5rem;
+}
+ul{
+    margin-top: 0;
+    padding-top: 20px;
+    text-align: right;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    animation: colorChange 1.5s 1;
+    color:#45046a;
+}
+@keyframes colorChange{
+    from{
+        color:white
+    }
+    50%{
+        color: #5c2a9d;
+    }
+    to{
+        color: #45046a;
+    }
+}
+.fixed{
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    animation: slideDown 0.3s 1;
+}
+@keyframes slideDown{
+    from{
+        height:0px;
+        transition: ease-in-out;
+    }
+    50%{
+        height: 20px;
+        transition: ease-in-out;
+    }
+    to{
+        height: 40px;
+        transition: ease-in-out;
+    }
+}
+.nav img{
+    height:55px;
+    width: 55px;
+    border-radius: 100px;
+    position: relative;
+    top:-50px;
+    left:10px;
+}
+
+
+/*///////////////////wave animation//////////////*/
+.circle
+{   position: relative;
+    left:50px;
+    top:-25px;
+	transform: translate(-50%, -50%) scale(1.6);
+	width: 25px;
+	height: 25px;
+	border: 5px solid #fff;
+	box-shadow: 0 0 0 5px #4973ff;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.wave
+{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: #4973ff;
+	border-radius: 50%;
+	box-shadow: inset 0 0 50px rgba(0,0,0.5);
+}
+.wave:before,
+.wave:after
+{
+	content: '';
+	position: absolute;
+	width: 200%;
+	height: 200%;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%,-75%);
+	background: #000;
+}
+.wave:before
+{
+	border-radius: 45%;
+	background: rgba(255,255,255,1);
+	animation: animate 10s linear infinite;
+}
+.wave:after
+{
+	border-radius: 40%;
+	background: rgba(255,255,255,.5);
+	animation: animate 5s linear infinite;
+}
+@keyframes animate
+{
+	0%
+	{
+		transform: translate(-50%,-70%) rotate(0deg);
+	}
+	100%
+	{
+		transform: translate(-50%,-75%) rotate(360deg);
+	}
+}
+
