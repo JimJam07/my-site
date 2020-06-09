@@ -57,7 +57,7 @@ body,html{
 }
 .skills{
     text-align: center;
-    background-color: #4cd3c2;
+    background-color: #abc2e8;
 }
 #special{
     height: 200px;
@@ -94,7 +94,8 @@ body,html{
 
 #front {
     transform: translateZ(100px);
-    background: #FF69B4;
+    border:5px solid black;
+    background: #649d66;
     background-image: url(https://www.freepngimg.com/thumb/python_logo/7-2-python-logo-free-download-png-thumb.png);
     background-size: 100px 100px;
     background-position: center;
@@ -105,7 +106,8 @@ body,html{
 
 #back {
     transform: rotateY(180deg) translateZ(100px);
-    background: #FF69B4;
+    border:5px solid black;
+    background:	#649d66;
     background-image: url(https://create-react-app.dev/img/logo.svg);
     background-size: 100px 100px;
     background-position: center;
@@ -114,8 +116,9 @@ body,html{
 
 #left {
     transform: rotateY(-90deg) translateX(-100px);
+    border:5px solid black;
     transform-origin: left;
-    background: #FF69B4;
+    background:	#649d66;
     background-image: url(https://www.freepngimg.com/thumb/github/71302-express.js-chrome-javascript-system-node.js-v8-runtime.png);
     background-size: 100px 100px;
     background-position: center;
@@ -124,8 +127,9 @@ body,html{
 
 #right {
     transform: rotateY(90deg) translateX(100px);
+    border:5px solid black;
     transform-origin: right;
-    background: #FF69B4;  
+    background: #649d66;  
     background-image: url(http://pluspng.com/img-png/logo-javascript-png-file-javascript-logo-png-1052.png);
     background-size: 100px 100px;
     background-position: center;
@@ -134,8 +138,9 @@ body,html{
 
 #top {
     transform: rotateX(-90deg) translateY(-100px);
+    border:5px solid black;
     transform-origin: top;
-    background: #FF69B4;
+    background:#649d66;
     background-image: url(https://webassets.mongodb.com/_com_assets/cms/MongoDB_Logo_FullColorBlack_RGB-4td3yuxzjs.png);
     background-size: 100px 100px;
     background-position: center;
@@ -144,8 +149,9 @@ body,html{
 
 #bottom {
     transform: rotateX(90deg) translateY(100px);
+    border:5px solid black;
     transform-origin: bottom;
-    background: #FF69B4; 
+    background: 	#649d66; 
     background-image: url();
     background-size: 100px 100px;
     background-position: center;
