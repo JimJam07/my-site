@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 html{
     scroll-behavior: smooth;
 }
@@ -50,7 +52,6 @@ html{
   }
 
   #content{
-      height: 2000px;
       margin-left: 180px;
       font-size: 28px; 
       padding-left: 30px;
@@ -90,3 +91,36 @@ html{
 h2{
     margin-bottom: 10px;
 }
+/*intro content*/
+
+.intro-content{
+        background-image: linear-gradient(rgba(255,192,203, 0.5), rgba(0, 0, 0, 0.5)), url('https://cdn.dribbble.com/users/681303/screenshots/3524015/dribbble-1.gif');
+        height: 650px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+     text-align: center;
+}
+.intro-content h1{
+    font-size: 5rem;
+    position: relative;
+    top: 30%;
+    color: white;
+    font-family: 'Lemonada', cursive;
+}
+.h1{
+    font-family: 'Oswald', sans-serif;
+}
+
+@media only screen and (max-width: 750px) {
+      h1{
+        font-size: 2rem;
+    }
+    .intro-content h1{
+        font-size: 2.5rem;
+    }
+       p{
+        font-size: 1rem;
+    }
+  }

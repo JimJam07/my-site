@@ -1,6 +1,6 @@
 //navbar controls
 window.addEventListener('scroll',function(event){
-    if (window.pageYOffset>200){
+    if (window.pageYOffset>700){
         this.document.getElementById('nav').className = 'nav fixed'
     }
     else{
