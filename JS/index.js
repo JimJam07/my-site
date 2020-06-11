@@ -10,7 +10,7 @@ window.addEventListener('scroll',function(event){
 
 //typewriter
 var index = 0,subIndex=0
-const typeContent = ["Hola! I'm Sharan","A Web Developer","welcome to my website"]
+const typeContent = ["Hola! I'm Sharan","A Web Developer","welcome to my website","nice to meet you"]
 var topContent = document.getElementById('top-content');
 var printText='';
 setInterval(()=>{

@@ -94,7 +94,7 @@ h2{
 /*intro content*/
 
 .intro-content{
-        background-image: linear-gradient(rgba(255,192,203, 0.5), rgba(0, 0, 0, 0.5)), url('https://cdn.dribbble.com/users/681303/screenshots/3524015/dribbble-1.gif');
+        background-image: linear-gradient(rgba(255,192,203, 0.5), rgba(0, 0, 0, 0.5)), url('../resources/work.gif');
         height: 650px;
         background-position: center;
         background-repeat: no-repeat;

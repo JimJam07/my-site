@@ -60,7 +60,9 @@
     margin:  0;
     border: 0;
     text-align: center;
-    width: 100%;
+    width: 50%;
+    position: relative;
+    left: 25%;
 }
         
 .ruler:before {
@@ -94,5 +96,8 @@
     }
     .name h2{
         font-size: 1.5rem;
+    }
+    .ruler{
+        left:20%
     }
   }
